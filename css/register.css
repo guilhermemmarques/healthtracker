@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Segoe UI';
+}
+
+a {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    transition: 0.4s;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover {
+    color: #00C999;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+ button:hover {
+     cursor: pointer;
+ }
+
+.text-forget-pass{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.4;
+}
+
+.bo1{
+    border-bottom: 1px solid #999999;
+}
+
+.hov1:hover{
+    border-color: #00C999;
+}
+
+.limiter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login{
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: -webkit-linear-gradient(bottom,#019975, #5DF48B);
+    position: relative;
+}
+
+.block-login {
+    width: 450px;
+    background: white;
+    border-radius: 3px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.login-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-title{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.login-box{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.input{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: #999999;
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 30px 0 65px;
+}
+
+.icon-input-email{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 23px;
+    padding-bottom: 95px;
+    pointer-events: none;
+}
+
+.icon-input-pass{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+    width: 100%;
+    height: 100%;
+    padding-left: 23px;
+    pointer-events: none;
+}
